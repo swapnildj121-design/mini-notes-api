@@ -1,0 +1,23 @@
+# 🚧 TODO – CI/CD Pipeline Enhancements
+
+## ✅ Completed
+
+* [x] Build Node.js API (Express)
+* [x] Add basic routes (GET / POST)
+* [x] Add unit tests (Jest + Supertest)
+* [x] Setup ESLint
+* [x] Dockerize application
+* [x] Run container locally
+* [x] Setup CI pipeline using GitHub Actions
+* [x] Run lint + test in CI
+* [x] Build Docker image in CI
+* [x] Push Docker image to Docker Hub
+
+---
+
+## 🔧 In Progress
+
+* [ ] Fix Docker push (access token scope / repo name)
+* [ ] Verify successful image push to Docker Hub
+
+---
