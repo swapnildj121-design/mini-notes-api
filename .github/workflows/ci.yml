@@ -28,7 +28,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t yourusername/mini-notes-api .
+        run: docker build -t swappy11/mini-notes-api .
 
       - name: Push Docker Image
-        run: docker push yourusername/mini-notes-api
+        run: docker push swappy11/mini-notes-api
